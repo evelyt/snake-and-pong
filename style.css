@@ -5,4 +5,45 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+canvas{
+    border: 2px solid #fff;
+}
+
+.score-container{
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    font-size: 18px;
+}
+
+#restart-btn{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s case;
+}
+
+#game-over{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: #fff;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
 }
